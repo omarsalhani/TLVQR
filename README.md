@@ -7,7 +7,13 @@ how to use :
 - rename namespace to your namespace
 - download missing package
 - create object from class like this ;
- TLVCls tlv = new TLVCls("Company Name", "VAT Number", DateTime.Now, 100, 15);
-            pictureBox1.Image = tlv.toQrCode();
-where 100 is : total invoice
-      15  is : vat value
+
+TLVCls tlv = new TLVCls("Company Name", "VAT Number", DateTime.Now, 100, 15);
+
+pictureBox1.Image = tlv.toQrCode();
+
+where:
+
+100 is : total invoice
+
+15  is : vat value
